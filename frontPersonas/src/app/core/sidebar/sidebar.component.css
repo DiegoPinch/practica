@@ -10,6 +10,30 @@
 
   
   .content {
-    padding: 20px;
+    padding: 15px;
+  }
+  
+
+/* para el menu */
+.nav-link {
+    display: flex;
+    align-items: center;
+    padding: 15px; 
+  }
+  
+  .nav-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-icon {
+    width: 24px; 
+    height: 24px; 
+    margin-right: 12px; 
+  }
+  
+  .nav-link span {
+    font-size: 15px; 
+    line-height: 15px; 
   }
   
