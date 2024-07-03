@@ -134,3 +134,4 @@ C:\Users\Asus\Documents\netcore\nercoreEntityPersona\nercoreEntityPersona\obj\De
 C:\Users\Asus\Documents\netcore\nercoreEntityPersona\nercoreEntityPersona\obj\Debug\net8.0\nercoreEntityPersona.pdb
 C:\Users\Asus\Documents\netcore\nercoreEntityPersona\nercoreEntityPersona\obj\Debug\net8.0\nercoreEntityPersona.genruntimeconfig.cache
 C:\Users\Asus\Documents\netcore\nercoreEntityPersona\nercoreEntityPersona\obj\Debug\net8.0\ref\nercoreEntityPersona.dll
+C:\Users\Asus\Documents\netcore\nercoreEntityPersona\nercoreEntityPersona\obj\Debug\net8.0\nercoreEntityPersona.sourcelink.json

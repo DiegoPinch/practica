@@ -7,6 +7,8 @@ namespace nercoreEntityPersona.Models
     {
         [Key]
         public int Id { get; set; }
+        [Required]
+        public string Cedula { get; set; }
 
         [Required]
         public string Nombre { get; set; }
@@ -16,6 +18,7 @@ namespace nercoreEntityPersona.Models
 
         [Required]
         public int Edad { get; set; }
+
 
         [Required]
         public int GeneroId { get; set; }

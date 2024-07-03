@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("nercoreEntityPersona")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fba2f0f0cc6b2add10d325f1a5d20a61e8d9fda0")]
 [assembly: System.Reflection.AssemblyProductAttribute("nercoreEntityPersona")]
 [assembly: System.Reflection.AssemblyTitleAttribute("nercoreEntityPersona")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
