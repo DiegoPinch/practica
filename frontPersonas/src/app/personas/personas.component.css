@@ -1,0 +1,7 @@
+/* Estilos CSS en tu archivo CSS o SCSS */
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  

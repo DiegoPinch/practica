@@ -1,0 +1,33 @@
+<div class="modal">
+    <h2>{{ modo === 'crear' ? 'Ingresar Persona' : 'Editar Persona' }}</h2>
+    <form (ngSubmit)="guardarPersona()">
+      <div class="form-columns">
+        <!-- Columna 1 -->
+        <div class="form-column">
+          <mat-form-field>
+            <input matInput placeholder="Nombre" [(ngModel)]="persona.nombre" name="nombre" required>
+          </mat-form-field>
+          <mat-form-field>
+            <input matInput placeholder="Apellido" [(ngModel)]="persona.apellido" name="apellido" required>
+          </mat-form-field>
+        </div>
+        
+        <!-- Columna 2 -->
+        <div class="form-column">
+          <mat-form-field>
+            <input matInput type="number" placeholder="Edad" [(ngModel)]="persona.edad" name="edad" required>
+          </mat-form-field>
+          <mat-form-field>
+            <input matInput placeholder="Cédula" [(ngModel)]="persona.cedula" name="cedula" required>
+          </mat-form-field>
+          <mat-form-field>
+            <input matInput type="number" placeholder="Género ID" [(ngModel)]="persona.generoId" name="generoId" required>
+          </mat-form-field>
+        </div>
+      </div>
+  
+      <button mat-raised-button color="primary" type="submit">Guardar</button>
+      <button mat-raised-button color="warn" type="button" (click)="cerrarModal()">Cancelar</button>
+    </form>
+  </div>
+  
